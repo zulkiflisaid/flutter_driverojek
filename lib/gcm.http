@@ -1,0 +1,77 @@
+########gcm notification
+POST https://fcm.googleapis.com/fcm/send HTTP/1.1 
+Authorization: key=AAAAqb3QmLo:APA91bGYHDpiqCE__s7kOJud_mScdRynRzZEGj_usgg6N4yZ1nDY3RNwBWVbxzYSzTxhbixR3zT3h84CbVOO1ISV3RUwMAls42K5iDmS9cyFaTrA1QpNgKKuM2SfRSbzG_R-y8iN4ksk
+Content-Type: application/json
+
+{   
+   // "to": "dirnekVPifk:APA91bHV_08bBkZlPBXsU6b4_KpmAn2QffuvjE_awjgv77KIEKGLJY8zkyW_7cJwMZZ_YMdZpgTb6tSUSDCEDlly6r3TLby2_FVALNGJlVzJDjMQjh3hbiN66gwjS2WW1iNxoD_lCSU6",
+    "registration_ids": ["fJaaUaqhRhQ:APA91bGHUabylJzoWf9-SdDovXHCU4EgNqQmNlditIgdtbjFbq3M4rlaXdxWMlXSVnLzslI5YHJDHZXNlrUw0CVZ1kktzjCan4gTu8zQyTFHAI0ds-KN2J9PW9yzJ3Eoqn-uK2E3schI"],
+    "priority": "high",
+     "notification" : {
+           "body" : "Body of Your Notification bbbbbb",
+           "title": "Title of Your Notification"
+     }  , 
+    "time_to_live": 30  ,
+    "data":{
+        "id" : "rrtrtrtrt",
+        "body" : "bbbbbbbbbbbbbb",
+        "title" : "title2",
+        "message" : "message3",
+        "category" : "yaa_categffori_data",
+        "pin" : "5555555",
+        "click_action": "FLUTTER_NOTIFICATION_CLICK"  
+    }                          
+}
+
+ 
+########gcm data 111
+POST https://fcm.googleapis.com/fcm/send HTTP/1.1 
+Authorization: key=AAAAqb3QmLo:APA91bGYHDpiqCE__s7kOJud_mScdRynRzZEGj_usgg6N4yZ1nDY3RNwBWVbxzYSzTxhbixR3zT3h84CbVOO1ISV3RUwMAls42K5iDmS9cyFaTrA1QpNgKKuM2SfRSbzG_R-y8iN4ksk
+Content-Type: application/json
+
+{   
+   // "to": "dirnekVPifk:APA91bHV_08bBkZlPBXsU6b4_KpmAn2QffuvjE_awjgv77KIEKGLJY8zkyW_7cJwMZZ_YMdZpgTb6tSUSDCEDlly6r3TLby2_FVALNGJlVzJDjMQjh3hbiN66gwjS2WW1iNxoD_lCSU6",
+    "to": "fJaaUaqhRhQ:APA91bGHUabylJzoWf9-SdDovXHCU4EgNqQmNlditIgdtbjFbq3M4rlaXdxWMlXSVnLzslI5YHJDHZXNlrUw0CVZ1kktzjCan4gTu8zQyTFHAI0ds-KN2J9PW9yzJ3Eoqn-uK2E3schI",
+    "priority": "high", 
+    "time_to_live":30 ,
+    "data":{
+        "order" : "549745385211",
+        "timing" : "111",
+        "body" : "body",
+        "title" : "title1111111111111111111111", 
+        "message" : "message", 
+        "category_order" : "godriver", 
+        "click_action": "FLUTTER_NOTIFICATION_CLICK",
+         "data_json": "{\"category_driver\": \"ojek\",\"total_prices\":6000,\"charge\":1000,\"point_transaction\" :100,\"polyline\" :\"polyline\", \"pay_categories\": \"tunai\",\"pelanggan\": \"pelanggan\",\"pelanggan_uid\": \"xTgc88I4pdRPqBjdh4rV7iF8aGr2\",\"pelanggan_avatar\": \"pelanggan_avatar\",\"pelanggan_hp\": \"pelanggan_hp\",\"pelanggan_bintang\": \"pelanggan_bintang\",\"pelanggan_trip\": \"pelanggan_trip\",\"jemput_judul\": \"jemput_judul\",\"jemput_alamat\": \"jemput_alamat\",\"jemput_ket\": \"jemput_ket\",\"tujuan_judul\":\"tujuan_judul\",\"tujuan_alamat\": \"tujuan_alamat\",\"distance_text\":\"1.5 km\"}"
+    }                          
+}
+
+########gcm data 1111
+POST https://fcm.googleapis.com/fcm/send HTTP/1.1 
+Authorization: key=AAAAqb3QmLo:APA91bGYHDpiqCE__s7kOJud_mScdRynRzZEGj_usgg6N4yZ1nDY3RNwBWVbxzYSzTxhbixR3zT3h84CbVOO1ISV3RUwMAls42K5iDmS9cyFaTrA1QpNgKKuM2SfRSbzG_R-y8iN4ksk
+Content-Type: application/json
+
+{   
+   // "to": "dirnekVPifk:APA91bHV_08bBkZlPBXsU6b4_KpmAn2QffuvjE_awjgv77KIEKGLJY8zkyW_7cJwMZZ_YMdZpgTb6tSUSDCEDlly6r3TLby2_FVALNGJlVzJDjMQjh3hbiN66gwjS2WW1iNxoD_lCSU6",
+    "to": "fJaaUaqhRhQ:APA91bGHUabylJzoWf9-SdDovXHCU4EgNqQmNlditIgdtbjFbq3M4rlaXdxWMlXSVnLzslI5YHJDHZXNlrUw0CVZ1kktzjCan4gTu8zQyTFHAI0ds-KN2J9PW9yzJ3Eoqn-uK2E3schI",
+    "priority": "high", 
+    "time_to_live":30 ,
+    "data":{
+        "order" : "1111",
+        "timing" : "1111",
+        "body" : "body",
+        "title" : "title1111111111111111111111", 
+        "message" : "message", 
+        "category_order" : "godriver", 
+        "click_action": "FLUTTER_NOTIFICATION_CLICK",
+        "data_json": "{\"category_driver\":\"ojek\",\"total_prices\":6000,\"charge\":1000,\"point_transaction\":100,\"polyline\" :\"polyline\", \"pay_categories\": \"tunai\",\"pelanggan\": \"pelanggan\",\"pelanggan_uid\": \"xTgc88I4pdRPqBjdh4rV7iF8aGr2\",\"pelanggan_avatar\": \"pelanggan_avatar\",\"pelanggan_hp\": \"pelanggan_hp\",\"pelanggan_bintang\": \"pelanggan_bintang\",\"pelanggan_trip\": \"pelanggan_trip\",\"jemput_judul\": \"jemput_judul\",\"jemput_alamat\": \"jemput_alamat\",\"jemput_ket\": \"jemput_ket\",\"tujuan_judul\":\"tujuan_judul\",\"tujuan_alamat\": \"tujuan_alamat\",\"distance_text\":\"1.5 km\" }"
+    }                          
+} 
+
+
+
+
+
+
+
+
